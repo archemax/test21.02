@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         AppsFlyerLib.getInstance().start(this)
         AppsFlyerLib.getInstance().setDebugLog(true)
 
+
         AppsFlyerLib.getInstance().start(this, "Z7bAwgthtGfCY3EBXZaZRh", object :
             AppsFlyerRequestListener {
             override fun onSuccess() {
